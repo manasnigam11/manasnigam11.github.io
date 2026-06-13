@@ -532,6 +532,49 @@ ul {
   text-transform: uppercase;
 }
 
+/* SIH Project badge */
+.sih-badge {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: linear-gradient(135deg, #d4a017, #e8b730);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(212, 160, 23, 0.3);
+}
+
+/* DermAI — visually prominent healthcare card */
+.dermai-card {
+  border-color: var(--accent);
+  border-width: 2.5px;
+  background: linear-gradient(145deg, rgba(4, 139, 125, 0.06), rgba(255, 255, 255, 0.95));
+}
+
+.dermai-icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  background: linear-gradient(135deg, var(--accent), #05a895);
+  border-radius: 14px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 14px rgba(4, 139, 125, 0.3);
+  animation: gentle-pulse 3s ease-in-out infinite;
+}
+
+@keyframes gentle-pulse {
+  0%, 100% { box-shadow: 0 4px 14px rgba(4, 139, 125, 0.3); }
+  50%      { box-shadow: 0 4px 22px rgba(4, 139, 125, 0.5); }
+}
+
 /* ═══════════════════════════════════════════════════════
    CONTACT / FOOTER
    ═══════════════════════════════════════════════════════ */
