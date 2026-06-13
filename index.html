@@ -1,1 +1,319 @@
-<!doctype html><html lang="en"><title>Manas Nigam's Portfolio</title><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.1cb74eee.js"></script><link href="/static/css/main.25d42b39.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manas Nigam | Portfolio</title>
+  <meta name="description" content="Portfolio of Manas Nigam — Full-stack developer, AI enthusiast, and Computer Science student. Explore projects, skills, and experience." />
+  <meta name="theme-color" content="#064b4b" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/logo192.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════ HEADER / NAVIGATION ═══════════ -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <h1 class="header-name">Manas Nigam</h1>
+      <p class="header-tagline">Full-Stack Developer · AI Enthusiast · CS Student</p>
+      <nav class="nav-links" id="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══════════ ABOUT ═══════════ -->
+  <section class="section reveal" id="about">
+    <img
+      src="/static/media/me.d5d4893ed5a2eb3f585c.jpeg"
+      alt="Manas Nigam"
+      class="about-photo"
+    />
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm <strong>Manas Nigam</strong>, a passionate Computer Science student
+      with a deep interest in full-stack development and artificial intelligence.
+      I love building meaningful projects that solve real-world problems and
+      continuously expanding my technical skill set.
+    </p>
+  </section>
+
+  <!-- ═══════════ SKILLS ═══════════ -->
+  <section class="section skills-section reveal" id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-categories">
+
+      <!-- Programming Languages -->
+      <div class="skill-category reveal-child">
+        <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+        <h3>Programming Languages</h3>
+        <div class="skills-list">
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">SQL</span>
+        </div>
+      </div>
+
+      <!-- Web Development -->
+      <div class="skill-category reveal-child">
+        <div class="skill-category-icon"><i class="fas fa-globe"></i></div>
+        <h3>Web Development</h3>
+        <div class="skills-list">
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">Node.js</span>
+          <span class="skill-pill">Express.js</span>
+        </div>
+      </div>
+
+      <!-- Database -->
+      <div class="skill-category reveal-child">
+        <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+        <h3>Database</h3>
+        <div class="skills-list">
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">MongoDB</span>
+        </div>
+      </div>
+
+      <!-- Artificial Intelligence -->
+      <div class="skill-category reveal-child">
+        <div class="skill-category-icon"><i class="fas fa-brain"></i></div>
+        <h3>Artificial Intelligence</h3>
+        <div class="skills-list">
+          <span class="skill-pill">Machine Learning</span>
+          <span class="skill-pill">Deep Learning</span>
+          <span class="skill-pill">NLP</span>
+          <span class="skill-pill">LLMs</span>
+          <span class="skill-pill">Generative AI</span>
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">Scikit-learn</span>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms -->
+      <div class="skill-category reveal-child">
+        <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+        <h3>Tools &amp; Platforms</h3>
+        <div class="skills-list">
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">GitHub</span>
+          <span class="skill-pill">Google Cloud</span>
+          <span class="skill-pill">VS Code</span>
+          <span class="skill-pill">Vercel</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ EXPERIENCE & ACHIEVEMENTS ═══════════ -->
+  <section class="section reveal" id="experience">
+    <h2>Experience &amp; Achievements</h2>
+
+    <div class="experience-grid">
+
+      <!-- SIH -->
+      <div class="experience-card reveal-child">
+        <div class="exp-icon"><i class="fas fa-trophy"></i></div>
+        <h3>Smart India Hackathon (SIH) Participant</h3>
+        <p class="exp-subtitle">Digital Mental Health &amp; Psychological Support System for Students in Higher Education</p>
+        <ul>
+          <li>Worked primarily on <strong>backend development</strong>.</li>
+          <li>Implemented booking systems, dashboards, and authentication modules.</li>
+          <li>Used <strong>MongoDB</strong> for database management.</li>
+          <li>Collaborated within a multidisciplinary team to create a two-way support platform for students and counselors.</li>
+        </ul>
+      </div>
+
+      <!-- NIT Delhi Internship -->
+      <div class="experience-card reveal-child">
+        <div class="exp-icon"><i class="fas fa-briefcase"></i></div>
+        <h3>NIT Delhi Internship</h3>
+        <p class="exp-subtitle">Industrial Training / Research Experience</p>
+        <ul>
+          <li>Gained hands-on experience working on real-world engineering projects.</li>
+          <li>Strengthened foundational knowledge in computer science and software development.</li>
+        </ul>
+      </div>
+
+      <!-- Google Cloud Hackathon -->
+      <div class="experience-card reveal-child">
+        <div class="exp-icon"><i class="fas fa-cloud"></i></div>
+        <h3>Google Cloud Hackathon Participant</h3>
+        <p class="exp-subtitle">Cloud-based Solution Development</p>
+        <ul>
+          <li>Participated in a competitive hackathon focused on Google Cloud technologies.</li>
+          <li>Explored cloud-native development, deployment, and services.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ PROJECTS ═══════════ -->
+  <section class="section projects-section reveal" id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- 1. Resilience of Wellness -->
+      <article class="project-card reveal-child" id="project-resilience">
+        <div class="project-number">01</div>
+        <div class="project-content">
+          <h3>Resilience of Wellness</h3>
+          <p>
+            A Python-based application developed to digitize wellness center operations
+            including login, insertion, deletion, and update functionalities.
+          </p>
+          <div class="tech-badges">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">GUI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/manasnigam11" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. Calorie Calculator -->
+      <article class="project-card reveal-child" id="project-calorie">
+        <div class="project-number">02</div>
+        <div class="project-content">
+          <h3>Calorie Calculator</h3>
+          <p>
+            A Java Swing application integrated with MySQL that calculates calorie intake
+            based on Indian food consumption patterns.
+          </p>
+          <div class="tech-badges">
+            <span class="tech-badge">Java Swing</span>
+            <span class="tech-badge">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/manasnigam11" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. Personal Portfolio Website -->
+      <article class="project-card reveal-child" id="project-portfolio">
+        <div class="project-number">03</div>
+        <div class="project-content">
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            My first web development project that introduced me to frontend development
+            and design principles.
+          </p>
+          <div class="tech-badges">
+            <span class="tech-badge">HTML</span>
+            <span class="tech-badge">CSS</span>
+            <span class="tech-badge">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/manasnigam11" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4. Digital Mental Health -->
+      <article class="project-card reveal-child" id="project-mental-health">
+        <div class="project-number">04</div>
+        <div class="project-content">
+          <h3>Digital Mental Health &amp; Psychological Support System</h3>
+          <p>
+            Developed during Smart India Hackathon. A two-way mental health support
+            platform connecting students and counselors. Included booking systems,
+            dashboards, authentication, and progress monitoring.
+          </p>
+          <p class="project-role"><strong>Role:</strong> Primarily worked on backend development and database integration.</p>
+          <div class="tech-badges">
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">Backend Dev</span>
+            <span class="tech-badge">Auth Systems</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/manasnigam11" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5. Groupify -->
+      <article class="project-card featured reveal-child" id="project-groupify">
+        <div class="project-number">05</div>
+        <span class="featured-badge"><i class="fas fa-star"></i> Live Project</span>
+        <div class="project-content">
+          <h3>Groupify</h3>
+          <p>
+            A live web platform designed to simplify group-based experiences and
+            interactions. Built with a focus on modern UI/UX and real-world usability.
+          </p>
+          <div class="tech-badges">
+            <span class="tech-badge">Web App</span>
+            <span class="tech-badge">Modern UI/UX</span>
+            <span class="tech-badge">Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="https://groupify-amber.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn live-btn">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/manasnigam11" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ CONTACT ═══════════ -->
+  <footer class="footer reveal" id="contact">
+    <h2>Get in Touch</h2>
+    <p class="contact-subtitle">I'm always open to new opportunities and collaborations.</p>
+
+    <div class="contact-cards">
+      <a href="mailto:manasnigam7@gmail.com" class="contact-card" id="contact-email">
+        <i class="fas fa-envelope"></i>
+        <span>manasnigam7@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/manas-nigam-b36a62325/" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-linkedin">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/manasnigam11" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-github">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Manas Nigam. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
